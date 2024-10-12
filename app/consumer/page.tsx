@@ -14,7 +14,7 @@ export default function Consumer() {
     }
   }, []);
   return (
-    <div className="w-full h-full p-2 flex flex-col gap-3 items-center overflow-scroll" style={{ lineBreak: "anywhere" }}>
+    <div className="w-full h-full p-2 flex flex-col gap-3 items-center overflow-scroll no-scrollbar" style={{ lineBreak: "anywhere" }}>
         <View items={data}/>
     </div>
   );

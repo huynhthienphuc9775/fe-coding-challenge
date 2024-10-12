@@ -157,7 +157,7 @@ export default function Admin() {
                         ref={setNodeRef}
                     >
                         <div className="w-full h-full flex flex-col xl:flex-row">
-                            <div className="xl:w-2/4 w-full h-full p-2 overflow-scroll border-b-2 xl:border-b-0 xl:border-r-2 ">
+                            <div className="xl:w-2/4 w-full h-full p-2 overflow-scroll no-scrollbar border-b-2 xl:border-b-0 xl:border-r-2 ">
                                 <div>
                                     <p>
                                         Mouse: ({x}, {y})
@@ -172,7 +172,7 @@ export default function Admin() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="xl:w-2/4 w-full h-full p-2 flex flex-col gap-3 items-center overflow-scroll">
+                            <div className="xl:w-2/4 w-full h-full p-2 flex flex-col gap-3 items-center overflow-scroll no-scrollbar">
                                 <View items={items} onClick={onEditProps} hovered={onSetHovered} />
                             </div>
                         </div>
