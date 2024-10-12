@@ -240,6 +240,7 @@ export default function Admin() {
 
     const onSave = () => {
         setViewData(items);
+        alert('Save successfully')
     };
 
     const onView = () => {
